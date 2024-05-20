@@ -11,8 +11,8 @@ api.add_listener(
         tests=TESTS,
         # checker=to_list,
         function_name={
-            "python": "captain_share",
-            "js": "captainShare"
+            "python": "winner_share",
+            "js": "winnerShare"
         },
         cover_code={
             "python-3": {},
