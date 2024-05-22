@@ -1,30 +1,40 @@
 <!-- Describe task in general -->
 
 <p style="text-align: justify;">
-    Captain Red Eye and his sailors found a chest containing a large number of identical gold coins. To divide up the coins, everyone agreed to the Captain's suggestion:
+    Captain Red Eye and his sailors luckily found another chest containing a large number of identical gold coins. To divide up the coins, the crew tried to use their previous rules:
 </p>
 
 <p style="text-align: justify;">
     <ul>
-     <li>each sailor except the Captain should receive exactly the same number of coins;</li>
-     <li>the captain should receive twice as many coins as a sailor.</li>
+     <li>each sailor, except the Captain, should receive exactly the same number of coins;</li>
+     <li>the Captain should receive twice as many coins as a sailor.</li>
     </ul>
 </p>
 
 <p style="text-align: justify;">
-    It may be that the fact that the Captain was the only one with a pistol on board contributed to everyone's agreement, but so did the fact that in the proposed form the division was perfect, with no Coins left over or missing.
+    In case the coins cannot be divided evenly using this method, the Captain, being the only person with a gun on board, decided to use his weapon effectively and mercifully - to minimally decrease the number of sailors to get an integer result of shares.
 </p>
 
 <p style="text-align: justify;">
-    Given the number of coins in the chest and the number of sailors, write a program to determine how many coins Captain Red Eye received. For example, for <code>15, 1</code> input:
+    However, the sailors were not happy with such a prospect and secretly decided that if the given number of coins could be evenly divided without the Captain's share, they would pounce and remove him from leadership.
 </p>
 
-<p style="text-align: center;">
-    <img  title="example" src="{{MEDIA}}divide-gold.svg" alt="example" style="max-height: 300px"/>
+<p style="text-align: justify;">
+    So, the priority of checking cases should be the following: 
+    <ul>
+        <li>Captain's double share, no kills;</li>
+        <li>The crew makes a riot against Captain;</li>
+        <li>Captain starts to kill sailors;</li>
+        <li>Captain kills all and takes all gold.</li>
+    </ul>
 </p>
-<!-- Explain input and output values -->
+
+<p style="text-align: justify;">
+    Given the number of coins in the chest and the number of sailors, write a program to determine the best share Captain or sailor (depending on suitable case) can receive.
+</p>
+
 <p>
-    <strong>Input:</strong> Two integers <span translate="no">({% if is_js %}number{% else %}int{% endif %})</span>
+    <strong>Input:</strong> Two integers <span translate="no">({% if is_js %}number{% else %}int{% endif %})</span>.
 </p>
 
 <p>
